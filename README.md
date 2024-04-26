@@ -12,19 +12,19 @@
 
 1. 注册个人github账号
 
-   ![26c31b4b1d039d82b3a25be1f51e5be](assets/26c31b4b1d039d82b3a25be1f51e5be.png)
+  ![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/26c31b4b1d039d82b3a25be1f51e5be.png)
 
 2. 登录个人github账号
 
-   ![ada04893c9bd6ca8dca6fb05ff9cf33](assets/ada04893c9bd6ca8dca6fb05ff9cf33.png)
+  ![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/ada04893c9bd6ca8dca6fb05ff9cf33.png)
 
 3. 建立一个仓库命名为Data Mining
 
-   ![image-20240426212614944](assets/image-20240426212614944.png)
+   ![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426212614944.png)
 
 4. 上传自己的PPT到Data Mining中
 
-   <img src="C:\Users\whd123\AppData\Roaming\Typora\typora-user-images\image-20240426163257849.png" alt="image-20240426163257849" style="zoom:33%;" />
+  ![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240427000104125.png)
 
 
 
@@ -67,7 +67,7 @@
   - **边预测**：预测图中边的存在与否或者其他属性；
   - **图嵌入表示**：将图转化为低维向量表示，便于后续分析或与其他模型结合使用。
 
-![image-20240426232344043](assets/image-20240426232344043.png) 
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426232344043.png)
 
 ### 3. 图卷积神经网络的原理
 
@@ -119,7 +119,7 @@
 - **频域**：
   - 应用图的拉普拉斯矩阵分解和傅里叶变换进行节点信息收集，通过谱域滤波器定义图卷积，从图信号处理角度去除噪声。
 
-![image-20240426233017118](assets/image-20240426233017118.png)
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426233017118.png)
 
 #### **3.6 空间域优缺点**：
 
@@ -147,7 +147,7 @@
   D_{ii} = \sum_j A_{ij}
   $$
 
-![image-20240426234027435](assets/image-20240426234027435.png)
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426234027435.png)
 $$
 A=\begin{pmatrix}0&1&0&1\\1&0&0&1\\0&0&0&1\\1&1&1&0\end{pmatrix}
 
@@ -160,7 +160,7 @@ $$
 
 其中，$H^{(l)}$代表第l层的节点特征矩阵，$\hat{A}$是邻接矩阵经过标准化处理后的版本，$\hat{D}$是对角线元素为节点度修正后的矩阵，$W^{(l)}$是对应的权重矩阵，$\sigma$​代表激活函数。
 
-![image-20240426233834566](assets/image-20240426233834566.png)
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426233834566.png)
 
 ​	在整个GCN模型处理过程中，无论经过多少层的计算和特征变换，原始图中节点间的连接关系，即邻接矩阵A，始终是被共享并用于指导信息传递的。最终，GCN将输入图中的节点特征X转换为新的特征表示Z。 
 
@@ -193,7 +193,7 @@ $$
 
 ​	权重在整个图中是共享的，类似于CNN中的参数共享；此外，随着网络层数增加，节点的感受野也会扩大，即节点特征逐渐融合更多信息。
 
-![image-20240426231414584](assets/image-20240426231414584.png)
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426231414584.png)
 
 #### **5.4 图卷积**
 
@@ -212,13 +212,13 @@ H^{(k+1)}=f(H^{(k)},A)=\sigma(\tilde{D}^{-0.5}\tilde{A}\tilde{D}^{-0.5}H^{(k)}W^
 $$
 这一方法在聚合邻居节点特征时不仅考虑了节点i的度数，还考虑了邻居节点j的度数。
 
-![image-20240426231607285](assets/image-20240426231607285.png)
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426231607285.png)
 
 #### **5.5 分类**
 
 图神经网络（GNN）是一个包含多种类型的大家族，其中GCN只是谱图卷积的一个分支。GNN可以从图类型、传播类型和训练方法三个方面进行分类。在传播类型中，包括卷积、注意力机制、门机制和跳跃连接等。
 
-![image-20240426231624159](assets/image-20240426231624159.png)
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426231624159.png)
 
 #### **5.6 特点**
 
@@ -244,7 +244,7 @@ $$
 
 #### 1.1 视频模态概述
 
-![在这里插入图片描述](file://C:\Users\Lenovo\Desktop\assets\3725000f6e7d49e898cec241941e6dd0.gif?lastModify=1714142932)
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/3725000f6e7d49e898cec241941e6dd0.gif)
 
 - **RGB图像**：广泛应用，包含丰富信息，可衍生出Flow和Skeleton数据，但处理此类数据需较大的计算资源。
 
@@ -286,19 +286,19 @@ $$
 
 - 在构建RGBD数据集时，借助带有RGBD深度相机的Kinect传感器来估计3D骨骼信息。但由此得到的关键点坐标可能存在较多噪声，精度不高。
 
-![image-20240426225025448](assets/image-20240426225025448.png)
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426225025448.png)
 
 ##### 3.1.2 2D人体姿态估计
 
 - 通过算法估计视频中的2D人体姿态关键点，并以此预测动作。
 
-![image-20240426225043104](assets/image-20240426225043104.png)
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426225043104.png)
 
 ##### 3.1.3 3D人体姿态估计——Motion Capture
 
 - 利用专业运动捕捉设备（Motion Capture）获取3D骨骼数据，尽管这种方式在实际网络模型应用中较为少见。
 
-  ![在这里插入图片描述](file://C:\Users\Lenovo\Desktop\assets\e4a96e82a46d40b2809c136ae2198e23.gif?lastModify=1714142932)
+  ![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/e4a96e82a46d40b2809c136ae2198e23.gif)
 
 ### 4. 基于GCN的技术路线——ST-GCN++
 
@@ -314,7 +314,7 @@ $$
 
 - 当有多个人物时，GCN通常会对所有人的特征进行平均处理，形成整体的特征表示。
 
-  ![image-20240426230116387](assets/image-20240426230116387.png)
+  ![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426230116387.png)
 
 ##### 4.1.2 GCN网络结构
 
@@ -328,7 +328,7 @@ $$
 
 - 这些特征经过一个线性分类层后，即可得出动作分类的结果。
 
-![image-20240426210222194](file://C:\Users\Lenovo\Desktop\assets\image-20240426210222194.png?lastModify=1714143733)
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426210222194.png)
 
 ##### 4.2.1 GCN Block设计
 
@@ -434,7 +434,7 @@ class unit_tcn(nn.Module):
 
   - 在ST-GCN++中，摒弃了原来使用单一的大kernel尺寸的1D卷积结构，转而采用多分支的时域卷积策略。这种方式不仅提升了网络对时序特征建模的能力，而且有效减少了计算量和参数量。
 
-  ![image-20240426214607270](assets/image-20240426214607270.png)
+  ![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426214607270.png)
 
 - **GCN（Graph Convolutional Network）的改良**
 
@@ -450,7 +450,7 @@ class unit_tcn(nn.Module):
 
 - **基于骨骼的动作识别模型精度对比**
 
-![image-20240426214712411](assets/image-20240426214712411.png)
+![](https://github.com/Mrhahaa/Data-Mining/blob/main/Images/image-20240426214712411.png)
 
 
 
