@@ -11,7 +11,7 @@
 
 ​	（2）存在多个人时，GCN取所有人特征的平均作为特征，如图所示
 
-![22411d850e3509b32bf5bbf93b11497](assets/22411d850e3509b32bf5bbf93b11497.png)
+!{Img}(https://github.com/Mrhahaa/Data-Mining/blob/94a6d410c9793bf639b9047a5370b7c2f42f5eba/22411d850e3509b32bf5bbf93b11497.png)
 
 ​	（3）GCN网络由多个GCN Block堆叠而成。类似于Bottleneck→ResNet。
 
