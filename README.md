@@ -6,7 +6,7 @@
 
 ## Github上传作业
 
-**Github个人仓库地址：**https://github.com/whdwhd0/DeepDataMining
+**Github个人仓库地址：**[https://github.com/whdwhd0/DeepDataMining](https://github.com/Mrhahaa/Data-Mining)
 
 ### 流程
 
